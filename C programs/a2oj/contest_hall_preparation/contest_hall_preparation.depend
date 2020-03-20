@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1543890079 source:y:\c programs\a2oj\contest_hall_preparation\main.c
+	<stdio.h>
+	<stdlib.h>
+

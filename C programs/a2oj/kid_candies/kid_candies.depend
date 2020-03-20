@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1540558954 source:y:\c programs\a2oj\kid_candies\main.c
+	<stdio.h>
+	<stdlib.h>
+

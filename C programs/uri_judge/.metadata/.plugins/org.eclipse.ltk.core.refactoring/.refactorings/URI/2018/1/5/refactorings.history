@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;URI/src/Uri 3&apos; to &apos;Uri 3.c&apos;" description="Rename resource &apos;Uri 3&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Uri 3" name="Uri 3.c" stamp="1517345269245" updateReferences="true"/>
+</session>

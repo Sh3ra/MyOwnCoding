@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1545924066 source:y:\c programs\contests\array_stability\main.c
+	<stdio.h>
+	<stdlib.h>
+

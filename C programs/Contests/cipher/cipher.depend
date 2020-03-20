@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1545921932 source:y:\c programs\contests\cipher\main.c
+	<stdio.h>
+	<stdlib.h>
+

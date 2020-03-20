@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1542819545 source:y:\c programs\a2oj\arabic_english\main.c
+	<stdio.h>
+	<stdlib.h>
+
