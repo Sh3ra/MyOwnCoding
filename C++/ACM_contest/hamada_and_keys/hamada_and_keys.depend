@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1548761168 source:y:\c++\acm_contest\hamada_and_keys\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1549360667 source:y:\c++\acm_contest\to_add_or_not\main.cpp
+	<iostream>
+	<algorithm>
+	<map>
+

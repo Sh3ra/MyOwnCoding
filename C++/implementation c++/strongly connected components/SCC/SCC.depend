@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1537746824 source:d:\contest summer\strong connected comp\scc\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

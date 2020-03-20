@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1549313539 source:y:\c++\acm_contest\hamburgers\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	<climits>
+

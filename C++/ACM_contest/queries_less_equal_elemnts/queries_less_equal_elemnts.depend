@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1549181387 source:y:\c++\acm_contest\queries_less_equal_elemnts\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

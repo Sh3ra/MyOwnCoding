@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1539708130 source:d:\contest summer\gametheory\cycle to win\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

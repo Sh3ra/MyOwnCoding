@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1562860024 source:y:\programming\c++\codeforces_problems\beautiful_year\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

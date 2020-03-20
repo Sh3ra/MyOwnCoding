@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1548599762 source:y:\c++\acm_contest\hamada_the_senpai\main.cpp
+	<iostream>
+	<stack>
+

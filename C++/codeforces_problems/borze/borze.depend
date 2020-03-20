@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1562858920 source:y:\programming\c++\codeforces_problems\borze\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

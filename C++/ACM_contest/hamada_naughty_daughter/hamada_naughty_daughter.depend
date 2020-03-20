@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1548778678 source:y:\c++\acm_contest\hamada_naughty_daughter\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	<queue>
+

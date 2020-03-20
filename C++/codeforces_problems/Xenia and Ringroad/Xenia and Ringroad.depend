@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1567690688 source:y:\programming\c++\codeforces_problems\xenia and ringroad\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

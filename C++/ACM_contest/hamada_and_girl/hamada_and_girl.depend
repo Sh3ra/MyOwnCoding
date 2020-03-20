@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1548757969 source:y:\c++\acm_contest\hamada_and_girl\main.cpp
+	<iostream>
+	<algorithm>
+	<queue>
+	<string>
+

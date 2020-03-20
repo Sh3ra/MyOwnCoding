@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1548882807 source:y:\c++\acm_contest\hamada_and_valentine\main.cpp
+	<iostream>
+	<map>
+

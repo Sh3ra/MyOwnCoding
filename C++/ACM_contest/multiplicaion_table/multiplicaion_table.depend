@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1549405208 source:y:\c++\acm_contest\multiplicaion_table\main.cpp
+	<iostream>
+	<algorithm>
+

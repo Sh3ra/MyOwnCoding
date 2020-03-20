@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1548679751 source:y:\c++\acm_contest\hamada_and_crush\main.cpp
+	<iostream>
+	<stack>
+	<queue>
+

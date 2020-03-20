@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1548592735 source:y:\c++\acm_contest\hamada_and_restaurant\main.cpp
+	<iostream>
+	<stack>
+	<math.h>
+
