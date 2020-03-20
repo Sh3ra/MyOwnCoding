@@ -1,0 +1,51 @@
+body{
+	background-color: rgb(255, 153, 153);
+	color: #002633;
+	background-image: url("../imgs/baby1.jpg");
+	background-repeat :repeat-x;
+	background-position: top center;
+}
+h1{
+	font-size: 40pt;
+	font-weight: bold;
+	color :white;
+	
+}
+h2{
+	font-size: 26pt;
+	font-weight: bold;
+	font-style: italic;
+}
+p{
+	font-size: 12pt;
+	color: rgb(128, 0, 0);
+	border-style:solid;
+	border-width : 2px;
+	border-color :green;
+	margin : 20px;
+	padding:15px;
+	
+}
+table 
+{
+		width:80%;
+}
+table , th , td {
+	border-style :solid;
+	border-width : 2px;
+	border-collapse:collapse;
+	margin : 20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:20px;
+	padding-right:20px;
+	
+}
+tr:nth-child(odd){
+	background-color :black;
+	color :white;
+}
+tr:nth-child(even){
+	background-color :gray;
+	color :black;
+}

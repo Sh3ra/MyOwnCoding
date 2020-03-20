@@ -1,0 +1,57 @@
+<!doctype html>
+
+<html>
+<head>
+
+  <title>The HTML5 Herald</title>
+
+
+
+</head>
+
+<body>
+  <div> 
+   <h1> 
+		Welcome
+   </h1>
+  </div>
+  <div >
+  <form>
+	<input type="email" placeholder="enter any email ... " id="search" required > <br>
+	<input type='submit' id="submit" value="ok" disabled>
+  </form>
+  <div id="res">
+  </div> 
+  </div>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script>
+
+	let success_callback = function(respond){
+					$("#res").html('');
+					console.log(respond)
+					if ( respond.state ) {
+						//$(
+						$("#res").html('<p style="color:red"> Sorry, This email is already taken </p>');
+						 $('#submit').attr('disabled','disabled');
+					} else {
+						$("#res").html('<p style="color:green"> this email is valid ! </p>');
+						$('#submit').removeAttr('disabled');
+					}
+				};
+
+	
+	let onKeyUpdo = function () {
+		let  email = $("#search").val()
+			$.ajax({
+					url: `http://localhost/lec26/controllers/check_email_exsists.php?email=${email}`, 
+					success: success_callback 
+			});
+	}
+	
+	$("#search").keyup (onKeyUpdo);
+  </script>
+</body>
+</html>
