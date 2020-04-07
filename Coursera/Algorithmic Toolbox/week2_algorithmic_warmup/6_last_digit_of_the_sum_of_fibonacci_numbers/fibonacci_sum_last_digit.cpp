@@ -18,6 +18,19 @@ int fibonacci_sum_naive(long long n) {
     return sum % 10;
 }
 
+int get_fibonacci_last_digit_fast(int n) {
+    int f0=0,f1=1;
+    if(n==0)return f0;
+    for (int i = 2; i <= n; i++)
+    {
+        int temp=f1;
+        f1=(f0+f1)%10;
+        f0=temp;
+    }
+    return f1;
+}
+
+
 int main() {
     long long n = 0;
     std::cin >> n;
