@@ -13,7 +13,6 @@ public:
                 if(index>-1)S[index]='X';
             }
         }
-        //cout<<1;
         for(int i=0;i<T.size();i++)
         {
             if(T[i]=='#')
