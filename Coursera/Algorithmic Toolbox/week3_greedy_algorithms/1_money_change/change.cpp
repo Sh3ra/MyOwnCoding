@@ -1,8 +1,13 @@
 #include <iostream>
 
 int get_change(int m) {
-  //write your code here
-  return n;
+  int ans=0;
+  ans+=m/10;
+  m-=10*(m/10);
+  ans+=m/5;
+  m-=5*(m/5);
+  ans+=(m/1);
+  return ans;
 }
 
 int main() {

@@ -1,13 +1,24 @@
 #include <iostream>
-#include <vector>
-
-using std::vector;
+#include <bits/stdc++.h>
+using namespace std;
 
 double get_optimal_value(int capacity, vector<int> weights, vector<int> values) {
   double value = 0.0;
 
-  // write your code here
-
+  vector<pair<double,pair<int,int>>>vp;
+  for (int i = 0; i < weights.size(); i++)
+  {
+    vp.push_back({(1.0*values[i])/weights[i],{weights[i],values[i]}});
+  }
+  sort(vp.begin(),vp.end());
+  int i=weights.size()-1;
+  while (capacity>0)
+  {
+    int weight_taken=min(capacity,vp[i].second.first);
+    value+=(vp[i].first*weight_taken);
+    capacity-=weight_taken;
+    i--;
+  }
   return value;
 }
 

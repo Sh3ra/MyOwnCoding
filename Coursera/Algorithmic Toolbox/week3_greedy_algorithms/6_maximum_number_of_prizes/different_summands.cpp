@@ -1,11 +1,30 @@
 #include <iostream>
 #include <vector>
+#include <bits/stdc++.h>
 
-using std::vector;
+using namespace std;
 
 vector<int> optimal_summands(int n) {
   vector<int> summands;
-  //write your code here
+  int sum=0;
+  unordered_set<int>s;
+  for (int i = 1; i <= n; i++)
+  {
+    int new_elem=min(i,n-sum);
+    if(s.find(new_elem)!=s.end())
+    {
+      sum-=(i-1);
+      summands[summands.size()-1]=n-sum;
+      break;
+    }
+    else
+    {
+      s.insert(new_elem);
+      sum+=new_elem;
+      summands.push_back(new_elem);
+    }
+    if(sum==n)break;
+  }
   return summands;
 }
 
