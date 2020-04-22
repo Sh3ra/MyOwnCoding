@@ -12,8 +12,8 @@ using std::pair;
 using std::min;
 
 
-double minimal_distance(vector<int> x, vector<int> y) {
-  //write your code here
+double minimal_distance(vector<int> x, vector<int> y,int l,int r) {
+  if(l==r)
   return 0.;
 }
 
@@ -26,5 +26,5 @@ int main() {
     std::cin >> x[i] >> y[i];
   }
   std::cout << std::fixed;
-  std::cout << std::setprecision(9) << minimal_distance(x, y) << "\n";
+  std::cout << std::setprecision(9) << minimal_distance(x, y,0,x.size()) << "\n";
 }
