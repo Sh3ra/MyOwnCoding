@@ -4,11 +4,11 @@ import React from 'react';
 //     return <h1>Hello Youssef The Coolest</h1>;
 // }
 
-const Greet =(props) => {
+const Greet =({name,children,adj}) => {
 return (
     <div>
-        <h1>Hello {props.name} The Coolest</h1>
-        {props.children}
+        <h1>Hello {name} The {adj}</h1>
+         {children}
     </div>
     );
 }
