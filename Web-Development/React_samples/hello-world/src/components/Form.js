@@ -9,6 +9,7 @@ class Form extends Component {
       commet: "",
       selected: "Omar",
     };
+    this.inputRef = React.createRef();
     this.changeValue = this.changeValue.bind(this);
   }
   changeValue(event) {
@@ -30,6 +31,9 @@ class Form extends Component {
     alert(`${this.state.email} ${this.state.commet} ${this.state.selected}`);
     event.preventDefault();
   };
+  componentDidMount() {
+    this.inputRef.current.focus();
+  }
   render() {
     return (
       <form onSubmit={this.handleSubmit}>
@@ -38,6 +42,7 @@ class Form extends Component {
           type="email"
           value={this.state.email}
           onChange={this.changeValue}
+          ref={this.inputRef}
         ></input>{" "}
         <div>
           <label> Comment </label>{" "}
