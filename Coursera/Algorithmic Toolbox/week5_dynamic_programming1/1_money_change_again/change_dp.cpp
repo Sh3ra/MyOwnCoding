@@ -1,8 +1,22 @@
 #include <iostream>
-
+#include <bits/stdc++.h>
+using namespace std;
 int get_change(int m) {
-  //write your code here
-  return m / 4;
+  int dp[m];
+  dp[0]=0;
+  dp[1]=1;
+  for (int i = 1; i <= m; i++)
+  {
+    if(i<3)
+    dp[i]=dp[i-1]+1;
+    else if(i==3)dp[i]=1;
+    else
+    {
+      dp[i]=min({dp[i-1]+1,dp[i-3]+1,dp[i-4]+1});
+    }
+  }
+  
+  return dp[m];
 }
 
 int main() {
