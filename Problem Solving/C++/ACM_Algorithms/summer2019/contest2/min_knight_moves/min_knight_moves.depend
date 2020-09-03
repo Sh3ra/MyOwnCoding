@@ -1,6 +1,0 @@
-# depslib dependency file v1.0
-1563809512 source:y:\programming\acm_algorithms\summer2019\contest2\min_knight_moves\main.cpp
-	<iostream>
-	<bits/stdc++.h>
-	<sstream>
-

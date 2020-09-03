@@ -1,5 +1,0 @@
-# depslib dependency file v1.0
-1563802866 source:y:\programming\acm_algorithms\summer2019\contest2\validate_the_maze\main.cpp
-	<iostream>
-	<bits/stdc++.h>
-
