@@ -1,25 +1,18 @@
 class Solution {
-#include <bits/stdc++.h>
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        unordered_set<int>us;
-        vector<int>res;
+        map<int,int>m;
+        vector<int>ans;
         for(int i=0;i<nums.size();i++)
         {
-            if(us.find(nums[i])!=us.end())
+            if(m.find(target-nums[i])!=m.end())
             {
-                res.push_back(i);
-                for(int j=0;j<nums.size();j++)
-                {
-                    if(nums[j]==target-nums[i])
-                    {
-                        res.push_back(j);
-                        return res;
-                    }
-                }
+                ans.push_back(i);
+                ans.push_back(m[target-nums[i]]);
             }
-            us.insert(target-nums[i]);
+            else m[nums[i]]=i;
         }
-        return res;
+        return ans;
+        
     }
 };
